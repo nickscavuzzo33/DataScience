@@ -9,7 +9,7 @@ Ocean.py is a Python library used to interact with Ocean Protocol, whether deali
 Benefits: 
 Asset Management: The library offers functionalities to create, discover, and resolve assets inside Ocean Protocol. This means developers can easily manage and work with digital assets without having to deal with the underlying complexities.
 
-Compute Services: With the Ocean Compute (C2D), developers can start and stop compute jobs, allowing for seamless integration of compute tasks with Ocean Protocol.
+Compute Services: With Ocean Compute (C2D), developers can start and stop compute jobs, allowing for seamless integration of compute tasks with Ocean Protocol.
 
 Smart Contract Interaction: ocean.py facilitates interaction with Ocean Protocol smart contracts. This means developers can execute, manage, and monitor smart contract operations directly from their Python applications.
 
