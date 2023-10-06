@@ -55,6 +55,8 @@ consumer = ocean.assets.download(
     order_requirements,
     'path_to_save_data'
 )
+
+
 4. Handle Errors and Exceptions
 Ensure you handle any errors or exceptions that might occur during the consume flow. This includes checking if you have enough Ocean tokens to purchase the data, if the dataset is still available, and if there are any network issues.
 
