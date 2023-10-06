@@ -1,16 +1,13 @@
 1. Setup
+
 1.1 Clone the Repository
 First, clone the ocean.py repository:
 
-bash
-Copy code
 git clone https://github.com/oceanprotocol/ocean.py.git
 cd ocean.py
 1.2 Install the Package
 Install the ocean.py package:
 
-bash
-Copy code
 pip install ocean-lib
 2. Remote Setup
 Follow the instructions in the setup-remote.md to set up a remote environment. This involves:
@@ -29,8 +26,6 @@ The Barge is a tool provided by Ocean Protocol to run a local Ocean network. If 
 3.1 Initialize Ocean
 Before you can consume data, you need to initialize the Ocean instance:
 
-python
-Copy code
 from ocean_lib.ocean.ocean import Ocean
 from ocean_lib.config import Config
 
@@ -39,26 +34,21 @@ ocean = Ocean(config)
 3.2 Search for Data
 Search for datasets on the Ocean marketplace:
 
-python
-Copy code
+
 search_results = ocean.assets.search('your_search_query')
 3.3 Select a Dataset
 From the search results, select a dataset you want to consume:
 
-python
-Copy code
+
 dataset = search_results[0]
 3.4 Consume the Data
 To consume the data, you'll need to purchase it first:
 
-python
-Copy code
 order_requirements = ocean.assets.order(dataset.did, 'access')
 service_agreement_id = ocean.assets.pay_for_service(order_requirements, dataset)
 Once the payment is successful, you can consume the data:
 
-python
-Copy code
+
 consumer = ocean.assets.download(
     dataset.did,
     service_agreement_id,
