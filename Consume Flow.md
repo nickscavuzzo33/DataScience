@@ -19,8 +19,12 @@ INFURA_PROJECT_ID: Your Infura project ID.
 OCEAN_NETWORK_URL: The URL of the Ocean network you're connecting to.
 FACTORY_DEPLOY_BLOCK: The block number when the factory was deployed.
 METADATA_CONTRACT_BLOCK: The block number when the metadata contract was deployed.
+
+
 2.2 Using the Barge
 The Barge is a tool provided by Ocean Protocol to run a local Ocean network. If you're using the Barge, you'll need to set up additional environment variables.
+
+
 
 3. Consume Flow
 3.1 Initialize Ocean
@@ -55,6 +59,10 @@ consumer = ocean.assets.download(
     order_requirements,
     'path_to_save_data'
 )
+
+
+
+
 
 
 4. Handle Errors and Exceptions
