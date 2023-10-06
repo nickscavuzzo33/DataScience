@@ -1,4 +1,4 @@
-Purpose:
+**Purpose**:
 Ocean.py is a Python library used to interact with Ocean Protocol, whether dealing with digital assets, datasets, or compute tasks. It provides functionalities to interact with the Ocean Protocol's smart contracts, assets, and compute services. Specifically:
 
 1) Publishing and Consuming Ocean Assets: This module allows users to create, discover, and resolve assets on the Ocean Protocol.
